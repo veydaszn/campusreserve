@@ -36,4 +36,14 @@ CampusReserve/
 ┣━ README.md
 ┗━ .gitignore
 
+📣 Call to Action
 
+If you find this project helpful:
+
+⭐ Star the repo
+
+🍴 Fork it
+
+🧩 Extend the project with your own features!
+
+Built with ❤️ using clean Java OOP principles.
