@@ -36,6 +36,30 @@ CampusReserve/
 ┣━ README.md
 ┗━ .gitignore
 
+
+🛠️ Compile & Run Instructions
+
+Follow these steps to compile and run CampusReserve from the terminal.
+
+✅ 1. Navigate to the project folder
+      cd CampusReserve
+✅ 2. Compile all Java files
+
+(Ensure you're inside the root folder where src/ exists.)
+
+      javac -d out $(find src -name "*.java")
+
+-d out places compiled classes in an out/ directory.
+
+$(find ...) compiles everything inside src/models, src/services, etc.
+
+If you're on Windows PowerShell, use:
+
+      javac -d out (Get-ChildItem -Recurse src\*.java)
+✅ 3. Run the program
+
+Once compiled, execute Main:
+
 📣 Call to Action
 
 If you find this project helpful:
