@@ -23,23 +23,7 @@ Object-Oriented Design
 
 Optional: JavaFX or JDBC for advanced versions
 
-📂 Project Structure
-CampusReserve/
-┣━ src/
-│ ┣━ models/
-│ │ ┣━ User.java
-│ │ ┣━ Resource.java
-│ │ ┗━ Booking.java
-│ ┣━ services/
-│ │ ┗━ BookingManager.java
-│ ┗━ Main.java
-┣━ README.md
-┗━ .gitignore
-
-
 🛠️ Compile & Run Instructions
-
-Follow these steps to compile and run CampusReserve from the terminal.
 
 ✅ 1. Navigate to the project folder
       cd CampusReserve
@@ -47,15 +31,15 @@ Follow these steps to compile and run CampusReserve from the terminal.
 
 (Ensure you're inside the root folder where src/ exists.)
 
-      javac -d out $(find src -name "*.java")
+  javac -d out $(find src -name "*.java")
 
--d out places compiled classes in an out/ directory.
+  -d out places compiled classes in an out/ directory.
 
 $(find ...) compiles everything inside src/models, src/services, etc.
 
 If you're on Windows PowerShell, use:
 
-      javac -d out (Get-ChildItem -Recurse src\*.java)
+  javac -d out (Get-ChildItem -Recurse src\*.java)
 ✅ 3. Run the program
 
 Once compiled, execute Main:
@@ -69,5 +53,3 @@ If you find this project helpful:
 🍴 Fork it
 
 🧩 Extend the project with your own features!
-
-Built with ❤️ using clean Java OOP principles.
